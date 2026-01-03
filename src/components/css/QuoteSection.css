@@ -1,0 +1,75 @@
+/* src/components/QuoteSection.css */
+
+.quote-section {
+  padding: 60px 20px;
+  background: #0f1417;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote-container blockquote {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.quote-container blockquote::before {
+  content: '“';
+  font-size: 4rem;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  opacity: 0.1;
+  color: #00ff9d;
+  z-index: -1;
+}
+
+.quote-container blockquote::after {
+  content: '”';
+  font-size: 4rem;
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  opacity: 0.1;
+  color: #00ff9d;
+  z-index: -1;
+}
+
+.quote-container cite {
+  display: block;
+  font-size: 1rem;
+  font-style: normal;
+  color: #00ff9d;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.quote-subtext {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 20px auto 0;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quote-section {
+    padding: 40px 20px;
+  }
+
+  .quote-container blockquote {
+    font-size: 1.2rem;
+  }
+
+  .quote-subtext {
+    font-size: 1rem;
+  }
+}

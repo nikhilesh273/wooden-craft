@@ -1,0 +1,40 @@
+/* ---------------------------------------------------
+   GLOBAL RESET
+--------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f1417;
+  color: white;
+}
+
+/* ---------------------------------------------------
+   TOP LANGUAGE + CONTACT BAR  (like image)
+--------------------------------------------------- */
+
+.topbar {
+  background: #1c2428;
+  color: #d5d5d5;
+  font-size: 14px;
+  padding: 8px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-left {
+  display: flex;
+  gap: 25px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+/* src/pages/Home.css */
+.category-bar {
+  background: #0f1417;
+  padding: 20px 0;
+  border-bottom: 1px solid #1c2428;
+}
+
+.category-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.category-link {
+  color: #a0a0a0;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+
+.category-link:hover,
+.category-link.active {
+  background: #00ff9d;
+  color: #0f1417;
+}
