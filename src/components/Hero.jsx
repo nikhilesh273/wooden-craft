@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="hero">
       {/* Background Image */}
-      <img src="/hero-2.jpg" alt="Fish Banner" className="hero-bg" />
+      <img src="hero-2.jpg" alt="Fish Banner" className="hero-bg" />
 
       {/* Overlay */}
       <div className="hero-overlay"></div>

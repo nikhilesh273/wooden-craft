@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="about-container">
         <div className="about-image">
           <img
-            src="/about-terarium.jpg"
+            src="about-terarium.jpg"
             alt="Handcrafted Terrarium Workshop"
           />
         </div>
